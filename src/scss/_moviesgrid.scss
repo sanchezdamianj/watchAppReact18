@@ -1,0 +1,49 @@
+@use "./mixins" as *;
+@use "./variables" as *;
+@use "./breakpoints" as *;
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 3rem;
+  text-align: center;
+  // height: 100vh;
+  @include tablet {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  &__loadmore {
+    text-align: center;
+  }
+}
+
+.movie-search {
+  display: inline-flex;
+  width: 100%;
+  max-width: 5s00px;
+  gap: 20px;
+  input {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1.5rem;
+    padding-left: 10px;
+    width: 100%;
+    padding-right: 8rem;
+    &::placeholder {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 1rem;
+      padding-left: 10px;
+    }
+  }
+}
+
+button {
+  right: 0;
+  top: 2px;
+  @include mobile {
+    right: 1px;
+    top: 1px;
+  }
+}

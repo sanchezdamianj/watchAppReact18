@@ -1,0 +1,16 @@
+@use "./mixins" as *;
+@use "./variables" as *;
+@use "./breakpoints" as *;
+input {
+    border: 0;
+    &::placeholder {
+        color: $greenLogo;
+        letter-spacing: 0.2rem;
+    }
+    background-color: $black;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: $border-radius;
+    color: $txt-color;
+    font-family: $font-family;
+}
