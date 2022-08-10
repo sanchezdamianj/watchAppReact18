@@ -1,3 +1,9 @@
+![image](https://user-images.githubusercontent.com/11862649/183914254-c765e81d-4234-4967-82fc-e24f571773d4.png)
+![image](https://user-images.githubusercontent.com/11862649/183914532-08343d90-49ad-40c0-a4ce-b0d2f9211e47.png)
+![image](https://user-images.githubusercontent.com/11862649/183914596-754abf92-8e02-45ae-a01e-239db6debb40.png)
+![image](https://user-images.githubusercontent.com/11862649/183914643-37920379-29d0-414d-81f7-2fe5197f723c.png)
+
+To Run this project you need an apiKey and Bearer from TMDB API resource. Then you can run npm.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
